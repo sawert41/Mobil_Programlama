@@ -1,2 +1,2 @@
 # Mobil_Programlama
-fatih hocamın istediği ödevler
+fatih hocanın istediği ödevler
