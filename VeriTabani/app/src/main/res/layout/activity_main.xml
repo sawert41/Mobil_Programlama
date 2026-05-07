@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID (Silme ve güncelleme için)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad" />
+
+    <EditText
+        android:id="@+id/editTextSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyad" />
+
+    <EditText
+        android:id="@+id/editTextYas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yaş"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextSehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şehir" />
+
+    <Button
+        android:id="@+id/buttonEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ekle" />
+
+    <Button
+        android:id="@+id/buttonGoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıtları Göster" />
+
+    <Button
+        android:id="@+id/buttonSil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Sil" />
+
+    <Button
+        android:id="@+id/buttonGuncelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Güncelle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textViewSonuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+</LinearLayout>
